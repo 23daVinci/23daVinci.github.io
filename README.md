@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 23daVinci Portfolio Website
 
 A modern, minimalist portfolio website built with Flask, featuring a clean black and white design inspired by professional portfolio templates.
@@ -174,3 +175,6 @@ For questions or support, please reach out through the contact form on the websi
 ---
 
 Built with ❤️ by 23daVinci
+=======
+# 23daVinci.github.io
+>>>>>>> e5bb555e821e716a7b06a93c4c1e79c0dca7407d
