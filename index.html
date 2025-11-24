@@ -90,9 +90,19 @@
     <nav class="fixed w-full z-50 glass-nav border-b border-slate-800 transition-all duration-300" id="navbar">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
-                <div class="flex-shrink-0">
-                    <a href="#" class="text-2xl font-bold text-white font-mono">&lt;Dev/&gt;</a>
+                <!-- LOGO SECTION -->
+                <div class="flex-shrink-0 flex items-center gap-3">
+                    <a href="#" class="group relative flex items-center justify-center">
+                        <!-- Hexagon SVG Shape -->
+                        <svg class="w-10 h-10 transform group-hover:rotate-180 transition-transform duration-500" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M50 5 L90 28 V72 L50 95 L10 72 V28 Z" stroke="#3b82f6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <!-- Initials (Absolute positioned to stay centered during rotation) -->
+                        <span class="absolute text-primary font-mono font-bold text-sm select-none pointer-events-none">NL</span>
+                    </a>
+                    <a href="#" class="text-xl font-bold text-white font-mono hidden sm:block hover:text-primary transition-colors">Naman.L</a>
                 </div>
+                
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-8">
                         <a href="#home" class="text-white hover:text-primary px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
@@ -159,15 +169,14 @@
             <div class="flex flex-col md:flex-row gap-12 items-center">
                 <div class="md:w-1/2">
                     <div class="flex items-center gap-4 mb-8">
-                        <!-- <span class="text-primary font-mono text-xl">01.</span> -->
                         <h2 class="text-3xl md:text-4xl font-bold text-white">About Me</h2>
                         <div class="h-px bg-slate-700 flex-grow"></div>
                     </div>
                     <p class="text-slate-400 mb-6 leading-relaxed">
-                        Hello! My name is Naman and I enjoy creating things that live on the internet. My interest in web development started back in 2015 when I decided to try creating custom layouts for my blog — turns out hacking together HTML & CSS is pretty fun!
+                        Hello! My name is Naman and I enjoy creating intelligent systems that live on the cloud. My interest in technology started when I realized the potential of AI to solve real-world problems — turns out training models and deploying them to production is pretty fun!
                     </p>
                     <p class="text-slate-400 mb-6 leading-relaxed">
-                        Fast-forward to today, I am currently pursuing my MS at <span class="text-primary">Northeastern University</span>I've had the privilege of working at an <span class="text-primary">advertising agency</span>, a <span class="text-primary">start-up</span>, and a <span class="text-primary">huge corporation</span>. My main focus these days is building accessible, inclusive products and digital experiences.
+                        Fast-forward to today, I am currently pursuing my <span class="text-primary">Master's at Northeastern University</span>. I've had the privilege of working at an advertising agency, a start-up, and a huge corporation. My main focus these days is bridging the gap between research and production—building scalable <span class="text-primary">Agentic AI</span> systems and robust <span class="text-primary">MLOps</span> pipelines.
                     </p>
                     
                     <div class="grid grid-cols-2 gap-2 text-sm font-mono text-slate-400 mt-8">
@@ -181,11 +190,13 @@
                     <div class="relative w-64 h-64 md:w-80 md:h-80">
                         <div class="absolute inset-0 border-2 border-primary rounded-lg transform translate-x-4 translate-y-4 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300"></div>
                         <div class="absolute inset-0 bg-primary/20 rounded-lg group-hover:bg-transparent transition-colors duration-300 z-10"></div>
-                        <!-- Placeholder for profile image -->
-                        <div class="w-full h-full bg-slate-700 rounded-lg flex items-center justify-center overflow-hidden grayscale group-hover:grayscale-0 transition-all duration-300">
+                        <!-- Profile Image Container -->
+                        <div class="w-full h-full bg-slate-700 rounded-lg flex items-center justify-center overflow-hidden transition-all duration-300">
+                            <!-- Icon commented out to allow image to show perfectly -->
                             <!-- <i class="fas fa-user text-6xl text-slate-500"></i> -->
-                            <!-- Uncomment and add your image source below -->
-                            <img src="assets/img/profile_pic.png" alt="Profile" class="object-cover w-full h-full">
+                            
+                            <!-- Your Image Source -->
+                            <img src="assets/img/profile_pic.png" alt="Naman Lazarus" class="object-cover w-full h-full">
                         </div>
                     </div>
                 </div>
